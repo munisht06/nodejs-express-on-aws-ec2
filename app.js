@@ -3,7 +3,7 @@ const app = express();
 const port = 3000;
 
 app.get('/', (req, res) => {
-  res.send('<h1>Express Demo App</h1> <h4>Message: Success</h4> <p>Version 1.1</p>');
+  res.send('<h1>Express Demo App</h1> <h4>Message: Success</h4> <p>Version 2.0</p>');
 })
 
 app.get('/products', (req, res) => {
@@ -20,6 +20,6 @@ app.get('/products', (req, res) => {
 })
 
 app.listen(port, ()=> {
-  console.log(`Demo app is up and  listening to port: ${port}`);
+  console.log(`Demo app is up and, holy its working,  listening to port: ${port}`);
 })
  
